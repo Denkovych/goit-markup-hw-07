@@ -1,3 +1,9 @@
+:root {
+  --foooter-color: #2f303a;
+  --background-color: #e5e5e5;
+  --title-text-color: #212121;
+  --p-color: #757575;
+}
 li {
   list-style-type: none;
 }
@@ -22,4 +28,14 @@ a {
 }
 button {
   cursor: pointer;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.not-see {
+  display: none;
 }
