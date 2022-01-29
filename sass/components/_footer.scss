@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--foooter-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-box {
+  display: flex;
+}
+.footer-box__left {
+  margin-right: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.footer-box__center {
+  width: 206px;
+  margin-right: 93px;
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
+.footer-box__right {
+  margin-top: 72px;
+  margin-bottom: 94px;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+}
+.logo__right {
+  color: #fff;
+}
+.contact__item {
+  margin-bottom: 9px;
+}
