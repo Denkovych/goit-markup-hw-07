@@ -33,7 +33,7 @@
   background-color: #fff;
 
   &:hover .modal-close__icon {
-    fill: #2196f3;
+    fill: $hoverColor;
   }
 }
 .modal-form {
@@ -51,7 +51,7 @@
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $titleTextColor;
   margin-bottom: 12px;
 }
 .modal-form__field {
@@ -62,7 +62,7 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: $pColor;
     margin-bottom: 4px;
   }
 }
@@ -76,7 +76,7 @@
   &:hover,
   &:focus {
     cursor: pointer;
-    outline: 1px solid rgba(33, 150, 243, 1);
+    outline: 1px solid $hoverColor;
   }
 }
 .modal-form__icon {
@@ -86,7 +86,7 @@
 
   .modal-form__input:hover + &,
   .modal-form__input:focus + & {
-    fill: #2196f3;
+    fill: $hoverColor;
   }
 }
 .modal-form__coments {
@@ -113,7 +113,7 @@
   & textarea:focus,
   & textarea:hover {
     cursor: pointer;
-    outline: 1px solid rgba(33, 150, 243, 1);
+    outline: 1px solid $hoverColor;
   }
 }
 .modal-checkbox {
