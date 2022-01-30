@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: $titleTextColor;
   font-size: 16px;
   letter-spacing: 0.03em;
   background-color: #ffffff;
@@ -50,7 +50,7 @@ body {
   color: #212121;
 
   &:hover {
-    color: #2196f3;
+    color: $hoverColor;
   }
   &:hover::after {
     opacity: 1;
@@ -81,16 +81,16 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--p-color);
-  fill: var(--p-color);
+  color: $pColor;
+  fill: $pColor;
 
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    color: #2196f3;
-    fill: #2196f3;
+    color: $hoverColor;
+    fill: $hoverColor;
   }
 }
 .contacts__icon {
