@@ -831,7 +831,6 @@ body {
   display: flex;
   overflow: hidden;
   margin-bottom: 20px;
-  top: -1px;
 }
 
 .product__info {
