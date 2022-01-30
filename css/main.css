@@ -41,13 +41,6 @@ button {
   display: none;
 }
 
-:root {
-  --foooter-color: #2f303a;
-  --background-color: #e5e5e5;
-  --title-text-color: #212121;
-  --p-color: #757575;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -142,8 +135,8 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--p-color);
-  fill: var(--p-color);
+  color: #757575;
+  fill: #757575;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -240,7 +233,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--title-text-color);
+  color: #212121;
   margin-bottom: 10px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -250,7 +243,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: var(--p-color);
+  color: #757575;
   width: 270px;
 }
 
@@ -340,7 +333,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--title-text-color);
+  color: #212121;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -349,7 +342,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--p-color);
+  color: #757575;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -452,7 +445,7 @@ body {
 }
 
 .footer {
-  background-color: var(--foooter-color);
+  background-color: #2f303a;
   margin-left: auto;
   margin-right: auto;
 }
@@ -499,7 +492,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--p-color);
+  color: #757575;
 }
 
 .contact__link--appearance {
@@ -866,7 +859,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.875;
-  color: var(--p-color);
+  color: #757575;
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 20px;
