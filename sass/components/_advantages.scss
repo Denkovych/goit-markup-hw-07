@@ -31,7 +31,7 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--title-text-color);
+  color: $titleTextColor;
   margin-bottom: 10px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -40,6 +40,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: var(--p-color);
+  color: $pColor;
   width: 270px;
 }
