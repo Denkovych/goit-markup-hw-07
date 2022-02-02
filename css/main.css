@@ -709,6 +709,7 @@ body {
 }
 
 .modal-checkbox__label a {
+  margin-left: 5px;
   color: #2196f3;
   text-decoration: underline;
 }
@@ -728,6 +729,7 @@ body {
 }
 
 .modal-checkbox__icon {
+  cursor: pointer;
   display: inline-block;
   width: 16px;
   height: 15px;
